@@ -10,9 +10,9 @@ Bonus;
     l’utente può inserire al volo elementi alla lista. */
 
     let lista = ['mela', 'banana', 'sale', 'pepe'];
-    
+    let counter = 0 ;
 
-    for (let i = 0; i < lista.length; i++) {
+   /*  for (let i = 0; i < lista.length; i++) {
         
        let listItem = lista[i] ;
        
@@ -22,7 +22,19 @@ Bonus;
         
     }
 
+    alert(lista); */
+
+
+    while (counter < lista.length){
+
+        let listItem = lista[counter] ;
+       
+        alert(listItem);
+
+        counter++
+
+
+
+    }
+
     alert(lista);
-
-    
-
